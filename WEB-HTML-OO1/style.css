@@ -1,0 +1,44 @@
+
+
+.grid-principal001 {
+    display: grid;
+    grid-template-columns:200px 1fr 150px ;
+    background-color: grey;
+    gap: 10px;
+    padding: 10px;
+    height: 800px;
+}
+.grid-principal001 > div {
+    background-color: rgb(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  .grid-central001 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 5px;
+  }
+  .grid-central001 > div {
+    padding: 20px 0;
+    
+  }
+
+  .titulo-html-001 {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+  }
+  .titulo-html-001 p {
+    text-align: justify;
+    margin-left: 100px;
+  }
+
+  .lista-que-es-html001 {
+    font-size: 17px;
+    text-align: justify;
+    text-decoration: none;
+
+  }
