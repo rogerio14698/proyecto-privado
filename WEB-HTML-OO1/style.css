@@ -1,4 +1,7 @@
 
+body {
+  -webkit-font-smoothing: antialiased;
+}
 
 .grid-principal001 {
     display: grid;
@@ -6,7 +9,7 @@
     background-color: grey;
     gap: 10px;
     padding: 10px;
-    height: 800px;
+    
 }
 .grid-principal001 > div {
     background-color: rgb(255, 255, 255, 0.5);
@@ -22,9 +25,24 @@
   }
   .grid-central001 > div {
     padding: 20px 0;
-    
   }
 
+  .menu-lateral {
+    list-style: none; 
+    text-decoration: none;
+    font-size: 25px;
+  }
+  .menu-lateral li {
+    border: 2px solid ;
+    padding: 5px;
+    margin: 2px;
+    text-align: justify;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+  .menu-lateral li:hover {
+    background-color: green;
+  }
   .titulo-html-001 {
     font-size: 20px;
     text-align: center;
@@ -36,9 +54,23 @@
     margin-left: 100px;
   }
 
-  .lista-que-es-html001 {
+  .lista-que-es-html001{
     font-size: 17px;
     text-align: justify;
     text-decoration: none;
-
+    margin-right: 9px;
   }
+  .lista-que-es-html001 ul {
+    list-style: none;
+  }
+  .span-0001 {
+    color: blue;
+  }
+  .img-estructura-001 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin-left: 250px;
+  }
+ 
