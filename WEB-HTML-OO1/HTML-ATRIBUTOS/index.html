@@ -21,15 +21,18 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background: rgb(165,197,235);
-    background: linear-gradient(90deg, rgba(165,197,235,1) 14%, rgba(233,134,177,1) 97%); padding: 10px;">
-        <a class="navbar-brand" href="index.html">AQUI PODEMOS PONER EL LOGO Y EL BUSCADOR</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <div class="top-nav">
+        <a href="#">Inicio</a>
+        <a href="#">Noticias</a>
+        <a href="#">Forum</a>
+        <a href="#">Contacto</a>
+        <div class="buscador-google">
+            <label for="gsearch">Google:<label>
+                    <input type="search" id="gsearch" name="gsearch">
+                    <input type="submit">
         </div>
-    </nav>
+
+    </div>
     <div class="grid-principal001">
         <div class="menu-lateral">
             <li><a href="../../PAGINA-PRINCIPAL-INICIO/index.html" target="_blank">INICIO</a></li>
@@ -45,7 +48,8 @@
             <div class="titulo-html-001">
                 <h1>ATRIBUTOS DEL LENGUAJE HTML</h1>
                 <p>¿Qué son los atributos?<br>Los atributos en el lenguaje HTML proporcionan información adicional a los
-                    <a href="../HTML-ELEMENTOS/index.html"><span class="span-0001">elementos</span></a> </p>
+                    <a href="../HTML-ELEMENTOS/index.html"><span class="span-0001">elementos</span></a>
+                </p>
             </div>
             <div class="lista-que-es-html001">
                 <ul>
@@ -59,39 +63,72 @@
                 </ul>
                 <ul>
                     <b>
-                        <p>Uno de los atributos más usados, es el <a href="#"><span class="span-0001">href</span></a>
+                        <p>Uno de los atributos más usados, es el <a href="#"><span class="span-0001">href</span></a>.
                         </p>
                     </b>
                     <li>El <span class="span-0001">href</span> especifica la URL de la página que lo va el enlace.</li>
-                    <li>Normalmente va acompañado de la etiqueta <a href="#"><span class="span-0001">< a >.</a></span></a></li>
+                    <li>Normalmente va acompañado de la etiqueta <a href="#"><span class="span-0001">
+                                < a>.</a></span></a></li>
 
-                    
+
                     <br><b>
-                        <p>El atributo src</p>
+                        <p>El atributo src.</p>
                     </b>
-                    <li>Cuando pones, usas la etiqueta de la imagen, que es <a href="#"><span class="span-0001">< img ></span></a>, el atributo src sirve para especificar la imagen que se va a mostrar.</a>, </li>
-                    <li>Así quedaria en un ejemplo, < img src="imagen.jpg" >.</li>
+                    <li>Cuando pones, usas la etiqueta de la imagen, que es <a href="#"><span class="span-0001">
+                                < img>
+                            </span></a>, el atributo src sirve para especificar la imagen que se va a mostrar.</a>,
+                    </li>
+                    <li>Así quedaria en un ejemplo, < img src="imagen.jpg">.</li>
                 </ul>
                 <ul>
-                    <b><p>Los atributos de alto y ancho</p></b><br>
-                    <li> La etiqueta de la imagen, < img > deben de contener atributos de width y height, las cuales definen el largo y la altura de la imagen.
+                    <b>
+                        <p>Los atributos de alto y ancho</p>
+                    </b><br>
+                    <li> La etiqueta de la imagen, < img> deben de contener atributos de width y height, las cuales
+                            definen el largo y la altura de la imagen.
                     </li><br>
                     <li>
-                        <b><p>El atributo alt</p></b>
-                        <p>El <span class="alt">alt</span> atributo que lo requiere la etiqueta < img > especifica un texto alternativo para la imagen, si la imagen por algún motivo no se puede mostrar. Esto puede deberse a una conexión lenta, a un error en el srcatributo, o si el usuario usa un lector de pantalla.</p>
+                        <b>
+                            <p>El atributo alt.</p>
+                        </b>
+                        <p>El <span class="alt">alt</span> atributo que lo requiere la etiqueta < img> especifica un
+                                texto alternativo para la imagen, si la imagen por algún motivo no se puede mostrar.
+                                Esto puede deberse a una conexión lenta, a un error en el srcatributo, o si el usuario
+                                usa un lector de pantalla.</p>
                     </li>
                     <li><img class="img-estructura-001" src="../imagenes/estructura-html-001.png"></li>
                     <li>
-                        <b><p>El Atributo de estilo</p></b>
-                        <p>El Style en su forma de atributo, <a href="#"><span class="href">< style ></style></span></a>, se usa para agregar estilo en linea, es decir en la misma linea del elemento.
-                        <br>Ejemplo:<P style="color: red">< p style="color-red">TODO ESTE TEXTO ESTARIA EN ROJO< /p></P></p>
+                        <b>
+                            <p>El Atributo de estilo</p>
+                        </b>
+                        <p>El Style en su forma de atributo, <a href="#"><span class="href">
+                                    < style>
+                                        </style>
+                                </span></a>, se usa para agregar estilo en linea, es decir en la misma linea del
+                            elemento.
+                            <br>Ejemplo:
+                        <P style="color: red">
+                            < p style="color-red">TODO ESTE TEXTO ESTARIA EN ROJO< /p>
+                        </P>
+                        </p>
                     </li>
-                
-                
-                
-                
-                
-                
+                    <li>
+                        <b>
+                            <p>El atributo lang</p>
+                        </b>
+                        <p>El atributo <a href="#"><span class="span-0001">
+                                    < lang>
+                                </span></a>, se incluye dentro del html, y se usa para epecificar el idioma de la
+                            pagina. <br><b>Como por ejemplo: < html lang="es">, para el caso de la pagina ser en
+                                    español. </b></p>
+
+                    </li>
+
+
+
+
+
+
                 </ul>
             </div>
         </div>
